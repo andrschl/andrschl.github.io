@@ -7,8 +7,8 @@ date: 2024-10-01
 
 ### Andreas Schlaginhaufen
 
-PhD researcher @ EPFL\
-<a href="https://www.linkedin.com/"><img src="assets/linkedin.png" width=15 alt="Linkedin" style="vertical-align: middle;"> LinkedIn</a>\
+PhD researcher @ EPFL<br>
+<a href="https://www.linkedin.com/"><img src="assets/linkedin.png" width=15 alt="Linkedin" style="vertical-align: middle;"> LinkedIn</a><br>
 <img src="assets/email.png" width=15 alt="andreas.schlaginhaufen [at] epfl.ch" style="vertical-align: middle;"> andreas.schlaginhaufen [at] epfl.ch
 
 <hr style="width: calc(100% - 280px); margin-left: 0;">
@@ -16,7 +16,7 @@ PhD researcher @ EPFL\
 I am a PhD student at EPFL in the Systems Control and Multiagent Optimization Research lab, supervised by Professor Maryam Kamgarpour.
 My research focuses on the theoretical side of inverse reinforcement learning and preference-based learning, with a broader interest in optimization, stochastic control, and game theory.
 
----
+<hr>
 ### Publications (an updated list can be found on [google scholar](https://scholar.google.com/citations?user=rMBbj1YAAAAJ&hl=en&oi=ao))
 **Towards the Transferability of Rewards Recovered via Regularized Inverse Reinforcement Learning** 
 Andreas Schlaginhaufen, Maryam Kamgarpour, *Neural Information Processing Systems (NeurIPS), 2024.* 
