@@ -1,11 +1,13 @@
 ---
-<img align="right" alt="portrait" width="250" src="assets/portrait.png">
+
+[//]: # (<img align="right" alt="portrait" width="250" src="assets/portrait.png">)
 
 ### Andreas Schlaginhaufen
 
 PhD researcher @ EPFL\
-<a href="https://www.linkedin.com/"><img src="assets/linkedin.png" width=15 alt="Linkedin" style="vertical-align: middle;"> LinkedIn</a>\
-<img src="assets/email.png" width=15 alt="andreas.schlaginhaufen [at] epfl.ch" style="vertical-align: middle;"> andreas.schlaginhaufen [at] epfl.ch
+
+[//]: # (<a href="https://www.linkedin.com/"><img src="assets/linkedin.png" width=15 alt="Linkedin" style="vertical-align: middle;"> LinkedIn</a>\)
+[//]: # (<img src="assets/email.png" width=15 alt="andreas.schlaginhaufen [at] epfl.ch" style="vertical-align: middle;"> andreas.schlaginhaufen [at] epfl.ch)
 
 <hr style="width: calc(100% - 280px); margin-left: 0;">
 
