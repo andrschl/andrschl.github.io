@@ -23,6 +23,7 @@ My research focuses on the theoretical side of inverse reinforcement learning an
   <span style="text-align: right;">(For an updated list check out my <a href="https://scholar.google.com/citations?user=rMBbj1YAAAAJ&hl=en&oi=ao">google scholar</a>)</span>
 </div>
 
+
 **Efficient Preference-Based Reinforcement Learning: Randomized Exploration Meets Experimental Design** 
 Andreas Schlaginhaufen, Reda Ouhamma, Maryam Kamgarpour, *arXiv*
 
