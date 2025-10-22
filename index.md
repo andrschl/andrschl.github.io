@@ -25,7 +25,7 @@ My research focuses on the theoretical side of inverse reinforcement learning an
 
 
 **Efficient Preference-Based Reinforcement Learning: Randomized Exploration Meets Experimental Design** 
-Andreas Schlaginhaufen, Reda Ouhamma, Maryam Kamgarpour, *arXiv*
+Andreas Schlaginhaufen, Reda Ouhamma, Maryam Kamgarpour, *Neural Information Processing Systems (NeurIPS), 2024.*
 
 **Towards the Transferability of Rewards Recovered via Regularized Inverse Reinforcement Learning** 
 Andreas Schlaginhaufen, Maryam Kamgarpour, *Neural Information Processing Systems (NeurIPS), 2024.* 
