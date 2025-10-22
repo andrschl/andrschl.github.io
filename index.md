@@ -14,7 +14,7 @@ PhD researcher @ EPFL<br>
 <hr style="width: calc(100% - 280px); margin-left: 0;">
 
 I am a PhD student at EPFL in the Systems Control and Multiagent Optimization Research lab, supervised by Professor Maryam Kamgarpour.
-My research focuses on the theoretical side of inverse reinforcement learning and preference-based learning, with a broader interest in optimization, stochastic control, and game theory.
+My research focuses on the theoretical side of inverse reinforcement learning and preference-based learning, with a broader interest in optimization, game theory, and applications to robotics.
 
 <hr>
 
