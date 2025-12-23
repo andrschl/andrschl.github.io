@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project Slides</title>
+  <style>
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+    .wrap { max-width: 1100px; margin: 0 auto; padding: 24px; text-align: center; }
+    img { max-width: 100%; max-height: 75vh; object-fit: contain; border-radius: 12px; }
+    .controls { margin-top: 14px; display: flex; justify-content: center; gap: 10px; flex-wrap: wrap; }
+    button, a.btn {
+      padding: 8px 12px; border: 1px solid #ccc; border-radius: 10px;
+      background: white; cursor: pointer; text-decoration: none; color: inherit;
+    }
+    button:hover, a.btn:hover { background: #f6f6f6; }
+    .hint { margin-top: 10px; font-size: 13px; color: #666; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h3 id="title">Slides</h3>
+    <img id="img" alt="slide" />
+    <div class="controls">
+      <button id="prev">◀ Prev</button>
+      <button id="next">Next ▶</button>
+      <a class="btn" href="./">Back</a>
+    </div>
+    <div class="hint">Tip: use ← / → arrow keys</div>
+  </div>
+
+  <script>
+    const slides = [
+      { title: "Pick & Place (Simulation)", src: "assets/hand/pick_and_place.png" },
+      { title: "Slide 2", src: "assets/hand/slide2.png" },
+      { title: "Slide 3", src: "assets/hand/slide3.png" },
+    ];
+
+    let i = 0;
+    const titleEl = document.getElementById("title");
+    const imgEl = document.getElementById("img");
+
+    function render() {
+      titleEl.textContent = slides[i].title;
+      imgEl.src = slides[i].src;
+      location.hash = `s${i + 1}`;
+    }
+
+    function go(dir) {
+      i = (i + dir + slides.length) % slides.length;
+      render();
+    }
+
+    document.getElementById("prev").addEventListener("click", () => go(-1));
+    document.getElementById("next").addEventListener("click", () => go(1));
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowLeft") go(-1);
+      if (e.key === "ArrowRight") go(1);
+    });
+
+    // Allow direct linking: slides.html#s2
+    const m = location.hash.match(/^#s(\d+)$/);
+    if (m) {
+      const idx = parseInt(m[1], 10) - 1;
+      if (idx >= 0 && idx < slides.length) i = idx;
+    }
+    render();
+  </script>
+</body>
+</html>
