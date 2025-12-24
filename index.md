@@ -16,6 +16,9 @@ PhD researcher @ EPFL<br>
 I am a PhD student at EPFL in the Systems Control and Multiagent Optimization Research lab, supervised by Professor Maryam Kamgarpour.
 My research focuses on the theoretical side of inverse reinforcement learning and preference-based learning, with a broader interest in optimization, game theory, and applications to robotics.
 
+### Robotics Projects
+Selected robotics projects I supervised: [Robotics Projects](/robotics-projects/).
+
 <hr>
 
 <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -40,6 +43,5 @@ Andreas Schlaginhaufen, Maryam Kamgarpour, *International Conference on Machine 
 
 [**Learning Stable Deep Dynamics Models for Partially Observed or Delayed Dynamical Systems**](https://arxiv.org/abs/2110.14296)
 Andreas Schlaginhaufen, Philippe Wenk, Andreas Krause, Florian Dörfler, *Neural Information Processing Systems (NeurIPS), 2021.*
-
 
 
