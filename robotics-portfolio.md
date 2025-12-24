@@ -3,40 +3,75 @@ layout: page
 title: "Robotics Projects"
 permalink: /robotics-projects/
 ---
+# Selected Robotics Projects (Supervision & Technical Guidance)
 
-## Selected Robotics Projects I Supervised
+#### **Imitation Learning & IRL for Dexterous Manipulation (MSc Thesis, 2025)**
 
-A short portfolio of robotics projects I supervised. Feel free to adapt the blurbs, add media, or link to code and papers.
+- **Student:** Gregorio Valenti
+- **Supervision:** Andreas Schlaginhaufen, Cheng Pang (CREATE Lab, EPFL)
+- **Goal:** Build an imitation-learning pipeline for controlling a custom dexterous robotic hand, using demonstrations collected via a VR teleoperation setup.
+- **Work:**
+    - Developed a VR teleoperation + data collection pipeline for the  [**ADAPT hand**](https://www.youtube.com/watch?v=gVNkmsFAQ3Q) in **NVIDIA Isaac Sim** to gather expert demonstrations.
+    - Implemented and benchmarked **behavioral cloning (BC)**, **inverse RL (IRL)**, and **RL fine-tuning** on simulated pick-and-place tasks.
+- **Outcome:**
+    - Achieved successful **pick-and-place in simulation** with a **22-DoF** dexterous hand setup.
+    - Demonstrated that **BC benefits from RL/IRL refinement**, indicating a promising hybrid approach for dexterous manipulation.
 
-### Cooperative Drone Swarms for Search and Rescue
-- **Team**: 3 MSc students, spring 2024
-- **Focus**: Multi-agent coordination under intermittent communication
-- **Highlights**: Formulated distributed task allocation, flight-tested in a motion-capture arena
+<div style="display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap;">
+  <img src="assets/hand/pick_and_place.png"
+       alt="Pick and place"
+       style="height:350px; width:auto; max-width:48%; border-radius:10px;">
+  <img src="assets/hand/teleop.png"
+       alt="Teleop"
+       style="height:350px; width:auto; max-width:48%; border-radius:10px;">
+</div>
 
-### Vision-Guided Manipulation for Agile Assembly
-- **Team**: 2 MSc students, fall 2023
-- **Focus**: Learned grasp planning with closed-loop visual servoing
-- **Highlights**: Achieved sub-3 mm placement accuracy on small parts with a UR5e
 
-### Legged Robot Footstep Planning on Rough Terrain
-- **Team**: 1 BSc + 1 MSc student, spring 2023
-- **Focus**: Safe exploration for foothold selection with uncertainty estimation
-- **Highlights**: Reduced foot-slip events by 35% compared to baseline heuristics
 
-### Autonomous Inspection with Aerial-Ground Collaboration
-- **Team**: 2 MSc students, fall 2022
-- **Focus**: Heterogeneous robot routing and map sharing
-- **Highlights**: Demonstrated joint coverage of a multi-level test site within energy budgets
+#### **Imitation Learning for Autonomous Car Racing (MSc Project, 2024)**
 
-### Human-in-the-Loop Teleoperation with Shared Autonomy
-- **Team**: 2 BSc students, spring 2022
-- **Focus**: Intent inference and assistive control for a mobile manipulator
-- **Highlights**: 20% task-time reduction in pick-and-place with novice operators
+- **Student:** Emre Gursoy 
+- **Supervision:** Andreas Schlaginhaufen, Johannes Waibel (PREDICT Lab, EPFL)
+- **Goal:** Learn stable control policies for an autonomous race car from expert demonstrations.  
+- **Work:**
+  - Augmented expert demonstrations with **stabilizing inputs** (using [replica noising](https://arxiv.org/pdf/2307.14619)) to improve closed-loop stability of the behavioral cloning policy.
+  - Evaluated against **vanilla BC** in both **simulation** and **real-world racetrack** experiments.  
+- **Outcome:**
+  - Achieved a **stable BC policy** in simulation and on track, improving behavior from **immediate crashes** to **successful lap/track completion**.
 
----
+<div style="display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap;">
+  <video controls style="height:350px; width:auto; max-width:40%; border-radius:10px;">
+    <source src="assets/car/simulation.webm" type="video/webm">
+  </video>
 
-You can embed photos or videos per project by adding assets to `assets/` and linking them here, for example:
+  <video controls style="height:350px; width:auto; max-width:57%; border-radius:10px;">
+    <source src="assets/car/real_track.mp4" type="video/mp4">
+  </video>
+</div>
 
-```
-![UR5e placing a small gear](assets/ur5e-assembly.jpg)
-```
+
+#### **Constrained RL & IRL on JetBot Testbed (MSc Theses, 2023)**
+
+- **Students:** Alexandre Clivaz, Pierre Chassagne  
+- **Supervision:** Andreas Schlaginhaufen, Tony Wood  
+- **Goal:** Develop and deploy constrained RL and IRL methods on a wheeled mobile-robot testbed to navigate a maze and reach the nearest exit safely.  
+- **Work:**
+  - Performed system identification and built a simulation model of the JetBot platform.
+  - Collected real-world expert demonstrations and trained a **behavioral cloning (BC)** baseline.
+  - Implemented **constrained RL** and **IRL** in simulation, ensuring safety during navigation.
+  - Trained a perception module for real-world obstacle detection.
+  - Executed **sim-to-real transfer** and improved performance and safety via **online RL fine-tuning** on the robot.
+- **Outcome:**
+  - Learned **safe navigation policies** in simulation using constrained RL and IRL.
+  - Successfully deployed policies on the real robot, improving **safety** and **performance** through online RL fine-tuning.
+
+
+<div style="display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap;">
+  <img src="assets/jetbot/ppo_sim2.jpg"
+       style="height:250px; width:auto; max-width:48%; border-radius:10px;"
+       alt="PPO obstacles" />
+
+  <img src="assets/jetbot/maze_obstacles.jpg"
+       style="height:250px; width:auto; max-width:48%; border-radius:10px;"
+       alt="Maze obstacles" />
+</div>
