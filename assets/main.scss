@@ -1,0 +1,11 @@
+---
+---
+
+@import "minima";
+
+/* Force the same type for headings and nav */
+h1, h2, h3, h4, h5, h6,
+.site-nav .page-link {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-weight: 600;
+}

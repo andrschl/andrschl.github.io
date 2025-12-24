@@ -67,11 +67,7 @@ permalink: /robotics-projects/
   - Successfully deployed policies on the real robot, improving **safety** and **performance** through online RL fine-tuning.
 
 <div style="display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap; margin-bottom:24px;">
-  <img src="/assets/jetbot/ppo_sim2.jpg"
-       style="height:250px; width:auto; max-width:48%; border-radius:10px;"
-       alt="PPO obstacles" />
-
-  <img src="/assets/jetbot/maze_obstacles.jpg"
-       style="height:250px; width:auto; max-width:48%; border-radius:10px;"
-       alt="Maze obstacles" />
+  <video controls style="height:250px; width:auto; max-width:100%; border-radius:10px;">
+    <source src="assets/jetbot/demo.mp4" type="video/mp4">
+  </video>
 </div>
