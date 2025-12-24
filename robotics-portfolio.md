@@ -27,7 +27,7 @@ permalink: /robotics-projects/
 </div>
 
 
-
+<hr>
 #### **Imitation Learning for Autonomous Car Racing (MSc Project, 2024)**
 
 - **Student:** Emre Gursoy 
@@ -50,7 +50,7 @@ permalink: /robotics-projects/
 </div>
 
 
-
+<hr>
 #### **Constrained RL & IRL on JetBot Testbed (MSc Theses, 2023)**
 
 - **Students:** Alexandre Clivaz, Pierre Chassagne  
@@ -68,6 +68,6 @@ permalink: /robotics-projects/
 
 <div style="display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap; margin-bottom:24px;">
   <video controls style="height:250px; width:auto; max-width:100%; border-radius:10px;">
-    <source src="assets/jetbot/demo.mp4" type="video/mp4">
+    <source src="/assets/jetbot/demo.mp4" type="video/mp4">
   </video>
 </div>
