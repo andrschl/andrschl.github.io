@@ -18,10 +18,10 @@ permalink: /robotics-projects/
     - Demonstrated that **BC benefits from RL/IRL refinement**, indicating a promising hybrid approach for dexterous manipulation.
 
 <div style="display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap;">
-  <img src="assets/hand/pick_and_place.png"
+  <img src="/assets/hand/pick_and_place.png"
        alt="Pick and place"
        style="height:350px; width:auto; max-width:48%; border-radius:10px;">
-  <img src="assets/hand/teleop.png"
+  <img src="/assets/hand/teleop.png"
        alt="Teleop"
        style="height:350px; width:auto; max-width:48%; border-radius:10px;">
 </div>
@@ -41,11 +41,11 @@ permalink: /robotics-projects/
 
 <div style="display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap;">
   <video controls style="height:350px; width:auto; max-width:40%; border-radius:10px;">
-    <source src="assets/car/simulation.webm" type="video/webm">
+    <source src="/assets/car/simulation.webm" type="video/webm">
   </video>
 
   <video controls style="height:350px; width:auto; max-width:57%; border-radius:10px;">
-    <source src="assets/car/real_track.mp4" type="video/mp4">
+    <source src="/assets/car/real_track.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -67,11 +67,11 @@ permalink: /robotics-projects/
 
 
 <div style="display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap;">
-  <img src="assets/jetbot/ppo_sim2.jpg"
+  <img src="/assets/jetbot/ppo_sim2.jpg"
        style="height:250px; width:auto; max-width:48%; border-radius:10px;"
        alt="PPO obstacles" />
 
-  <img src="assets/jetbot/maze_obstacles.jpg"
+  <img src="/assets/jetbot/maze_obstacles.jpg"
        style="height:250px; width:auto; max-width:48%; border-radius:10px;"
        alt="Maze obstacles" />
 </div>
