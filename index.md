@@ -45,5 +45,3 @@ Andreas Schlaginhaufen, Maryam Kamgarpour, *International Conference on Machine 
 
 [**Learning Stable Deep Dynamics Models for Partially Observed or Delayed Dynamical Systems**](https://arxiv.org/abs/2110.14296)
 Andreas Schlaginhaufen, Philippe Wenk, Andreas Krause, Florian Dörfler, *Neural Information Processing Systems (NeurIPS), 2021.*
-
-

@@ -17,7 +17,7 @@ permalink: /robotics-projects/
     - Achieved successful **pick-and-place in simulation** with a **22-DoF** dexterous hand setup.
     - Demonstrated that **BC benefits from RL/IRL refinement**, indicating a promising hybrid approach for dexterous manipulation.
 
-<div style="display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap;">
+<div style="display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap; margin-bottom:24px;">
   <img src="/assets/hand/pick_and_place.png"
        alt="Pick and place"
        style="height:350px; width:auto; max-width:48%; border-radius:10px;">
@@ -39,7 +39,7 @@ permalink: /robotics-projects/
 - **Outcome:**
   - Achieved a **stable BC policy** in simulation and on track, improving behavior from **immediate crashes** to **successful lap/track completion**.
 
-<div style="display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap;">
+<div style="display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap; margin-bottom:24px;">
   <video controls style="height:350px; width:auto; max-width:40%; border-radius:10px;">
     <source src="/assets/car/simulation.webm" type="video/webm">
   </video>
@@ -48,6 +48,7 @@ permalink: /robotics-projects/
     <source src="/assets/car/real_track.mp4" type="video/mp4">
   </video>
 </div>
+
 
 
 #### **Constrained RL & IRL on JetBot Testbed (MSc Theses, 2023)**
@@ -65,8 +66,7 @@ permalink: /robotics-projects/
   - Learned **safe navigation policies** in simulation using constrained RL and IRL.
   - Successfully deployed policies on the real robot, improving **safety** and **performance** through online RL fine-tuning.
 
-
-<div style="display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap;">
+<div style="display:flex; gap:12px; justify-content:center; align-items:center; flex-wrap:wrap; margin-bottom:24px;">
   <img src="/assets/jetbot/ppo_sim2.jpg"
        style="height:250px; width:auto; max-width:48%; border-radius:10px;"
        alt="PPO obstacles" />
