@@ -8,7 +8,7 @@ permalink: /robotics-projects/
 #### **Imitation Learning & IRL for Dexterous Manipulation (MSc Thesis, 2025)**
 
 - **Student:** Gregorio Valenti
-- **Supervision:** Andreas Schlaginhaufen, Cheng Pang (CREATE Lab, EPFL)
+- **Supervision:** Andreas Schlaginhaufen, Cheng Peng (CREATE Lab, EPFL)
 - **Goal:** Build an imitation-learning pipeline for controlling a custom dexterous robotic hand, using demonstrations collected via a VR teleoperation setup.
 - **Work:**
     - Developed a VR teleoperation + data collection pipeline for the  [**ADAPT hand**](https://www.youtube.com/watch?v=gVNkmsFAQ3Q) in **NVIDIA Isaac Sim** to gather expert demonstrations.
